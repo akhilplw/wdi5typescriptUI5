@@ -1,0 +1,17 @@
+{
+  "generator-ui5-ts-app": {
+    "namespace": "com.my.myappintypscript",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.120.0",
+    "author": "",
+    "initrepo": true,
+    "tstypes": "@openui5/types",
+    "tstypesVersion": "1.120.0",
+    "appId": "com.my.myappintypscript",
+    "appURI": "com/my/myappintypscript",
+    "cdnDomain": "sdk.openui5.org",
+    "defaultTheme": "sap_horizon",
+    "gte11150": true,
+    "setupCompleted": true
+  }
+}
