@@ -1,3 +1,5 @@
+Git URL : https://github.com/SAP-samples/ui5-typescript-tutorial/blob/main/exercises/ex6/README.md
+
 # UI5 Application com.my.myappintypscript
 
 Insert the purpose of this project and some interesting info here...
