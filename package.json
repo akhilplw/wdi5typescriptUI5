@@ -43,6 +43,7 @@
 		"ui5-middleware-livereload": "^0.8.4",
 		"ui5-tooling-modules": "^3.2.4",
 		"ui5-tooling-transpile": "^0.7.17",
+		"wdio-timeline-reporter": "^5.1.4",
 		"wdio-ui5-service": "^2.0.2"
 	}
 }
