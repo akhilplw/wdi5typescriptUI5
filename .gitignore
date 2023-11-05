@@ -11,6 +11,8 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+target/
+desired_location
 
 .DS_Store
 .env

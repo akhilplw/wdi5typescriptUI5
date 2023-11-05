@@ -1,4 +1,5 @@
 import { wdi5Config } from "wdio-ui5-service"
+import { TimelineService} from "wdio-timeline-reporter/timeline-service";
 
 export const config: wdi5Config = {
     // ====================
@@ -157,7 +158,7 @@ export const config: wdi5Config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ["ui5"],
+    services: ["ui5", [TimelineService]],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -179,7 +180,14 @@ export const config: wdi5Config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ["spec"],
+    reporters: ["spec", [
+        "timeline",
+        {
+            outputDir: "target",
+            embedImages: true,
+            screenshotStrategy: "before:click",
+        }
+    ]],
 
     //
     // Options to be passed to Mocha.
