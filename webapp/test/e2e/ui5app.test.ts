@@ -23,7 +23,7 @@ describe("Testing the default location name: Waldorf", () => {
 		expect(sValue).toEqual("Walldorf");
 	});
 
-	it("Change the default value and check for country Stockholm", async (): Promise<void> => {
+	it("Change the default value and check for place Stockholm", async (): Promise<void> => {
 		const oInputSelector: wdi5Selector = {
 			selector: {
 				id: "location",
